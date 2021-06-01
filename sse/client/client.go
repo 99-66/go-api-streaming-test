@@ -10,7 +10,6 @@ type Log struct {
 	Device string `json:"Device"`
 	Event string `json:"Event"`
 	Result string `json:"Result"`
-	Path string `json:"path"`
 }
 
 func main() {
